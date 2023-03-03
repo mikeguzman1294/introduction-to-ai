@@ -1,0 +1,329 @@
+# Random seed
+7544340050746778767
+# MazeMap
+{(0, 0): {(1, 0): 1, (0, 1): 1}, (0, 1): {(0, 0): 1, (1, 1): 1, (0, 2): 1}, (0, 2): {(0, 1): 1, (1, 2): 1, (0, 3): 1}, (0, 3): {(0, 2): 1, (1, 3): 1, (0, 4): 1}, (0, 4): {(0, 3): 1, (1, 4): 1, (0, 5): 1}, (0, 5): {(0, 4): 1, (1, 5): 1, (0, 6): 1}, (0, 6): {(0, 5): 1, (1, 6): 1, (0, 7): 1}, (0, 7): {(0, 6): 1, (1, 7): 1}, (1, 0): {(0, 0): 1, (2, 0): 1, (1, 1): 1}, (1, 1): {(0, 1): 1, (1, 0): 1, (2, 1): 1, (1, 2): 1}, (1, 2): {(0, 2): 1, (1, 1): 1, (2, 2): 1, (1, 3): 1}, (1, 3): {(0, 3): 1, (1, 2): 1, (2, 3): 1, (1, 4): 1}, (1, 4): {(0, 4): 1, (1, 3): 1, (2, 4): 1, (1, 5): 1}, (1, 5): {(0, 5): 1, (1, 4): 1, (2, 5): 1, (1, 6): 1}, (1, 6): {(0, 6): 1, (1, 5): 1, (2, 6): 1, (1, 7): 1}, (1, 7): {(0, 7): 1, (1, 6): 1, (2, 7): 1}, (2, 0): {(1, 0): 1, (3, 0): 1, (2, 1): 1}, (2, 1): {(1, 1): 1, (2, 0): 1, (3, 1): 1, (2, 2): 1}, (2, 2): {(1, 2): 1, (2, 1): 1, (3, 2): 1, (2, 3): 1}, (2, 3): {(1, 3): 1, (2, 2): 1, (3, 3): 1, (2, 4): 1}, (2, 4): {(1, 4): 1, (2, 3): 1, (3, 4): 1, (2, 5): 1}, (2, 5): {(1, 5): 1, (2, 4): 1, (3, 5): 1, (2, 6): 1}, (2, 6): {(1, 6): 1, (2, 5): 1, (3, 6): 1, (2, 7): 1}, (2, 7): {(1, 7): 1, (2, 6): 1, (3, 7): 1}, (3, 0): {(2, 0): 1, (4, 0): 1, (3, 1): 1}, (3, 1): {(2, 1): 1, (3, 0): 1, (4, 1): 1, (3, 2): 1}, (3, 2): {(2, 2): 1, (3, 1): 1, (4, 2): 1, (3, 3): 1}, (3, 3): {(2, 3): 1, (3, 2): 1, (4, 3): 1, (3, 4): 1}, (3, 4): {(2, 4): 1, (3, 3): 1, (4, 4): 1, (3, 5): 1}, (3, 5): {(2, 5): 1, (3, 4): 1, (4, 5): 1, (3, 6): 1}, (3, 6): {(2, 6): 1, (3, 5): 1, (4, 6): 1, (3, 7): 1}, (3, 7): {(2, 7): 1, (3, 6): 1, (4, 7): 1}, (4, 0): {(3, 0): 1, (5, 0): 1, (4, 1): 1}, (4, 1): {(3, 1): 1, (4, 0): 1, (5, 1): 1, (4, 2): 1}, (4, 2): {(3, 2): 1, (4, 1): 1, (5, 2): 1, (4, 3): 1}, (4, 3): {(3, 3): 1, (4, 2): 1, (5, 3): 1, (4, 4): 1}, (4, 4): {(3, 4): 1, (4, 3): 1, (5, 4): 1, (4, 5): 1}, (4, 5): {(3, 5): 1, (4, 4): 1, (5, 5): 1, (4, 6): 1}, (4, 6): {(3, 6): 1, (4, 5): 1, (5, 6): 1, (4, 7): 1}, (4, 7): {(3, 7): 1, (4, 6): 1, (5, 7): 1}, (5, 0): {(4, 0): 1, (6, 0): 1, (5, 1): 1}, (5, 1): {(4, 1): 1, (5, 0): 1, (6, 1): 1, (5, 2): 1}, (5, 2): {(4, 2): 1, (5, 1): 1, (6, 2): 1, (5, 3): 1}, (5, 3): {(4, 3): 1, (5, 2): 1, (6, 3): 1, (5, 4): 1}, (5, 4): {(4, 4): 1, (5, 3): 1, (6, 4): 1, (5, 5): 1}, (5, 5): {(4, 5): 1, (5, 4): 1, (6, 5): 1, (5, 6): 1}, (5, 6): {(4, 6): 1, (5, 5): 1, (6, 6): 1, (5, 7): 1}, (5, 7): {(4, 7): 1, (5, 6): 1, (6, 7): 1}, (6, 0): {(5, 0): 1, (7, 0): 1, (6, 1): 1}, (6, 1): {(5, 1): 1, (6, 0): 1, (7, 1): 1, (6, 2): 1}, (6, 2): {(5, 2): 1, (6, 1): 1, (7, 2): 1, (6, 3): 1}, (6, 3): {(5, 3): 1, (6, 2): 1, (7, 3): 1, (6, 4): 1}, (6, 4): {(5, 4): 1, (6, 3): 1, (7, 4): 1, (6, 5): 1}, (6, 5): {(5, 5): 1, (6, 4): 1, (7, 5): 1, (6, 6): 1}, (6, 6): {(5, 6): 1, (6, 5): 1, (7, 6): 1, (6, 7): 1}, (6, 7): {(5, 7): 1, (6, 6): 1, (7, 7): 1}, (7, 0): {(6, 0): 1, (7, 1): 1}, (7, 1): {(6, 1): 1, (7, 0): 1, (7, 2): 1}, (7, 2): {(6, 2): 1, (7, 1): 1, (7, 3): 1}, (7, 3): {(6, 3): 1, (7, 2): 1, (7, 4): 1}, (7, 4): {(6, 4): 1, (7, 3): 1, (7, 5): 1}, (7, 5): {(6, 5): 1, (7, 4): 1, (7, 6): 1}, (7, 6): {(6, 6): 1, (7, 5): 1, (7, 7): 1}, (7, 7): {(6, 7): 1, (7, 6): 1}}
+# Pieces of cheese
+[(3, 7), (6, 3), (4, 5), (2, 3), (3, 2), (1, 4), (2, 4), (4, 0), (5, 3), (6, 6), (5, 5), (3, 5), (1, 5), (0, 4), (1, 1), (0, 2), (0, 5), (6, 0), (5, 6), (3, 6), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (7, 6), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (1, 2), (2, 5), (5, 1), (6, 2), (3, 0)]
+# Rat initial location
+(0, 0)
+# Python initial location
+(7, 7)
+# turn 1 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(0, 0)
+(7, 7)
+[(3, 7), (6, 3), (4, 5), (2, 3), (3, 2), (1, 4), (2, 4), (4, 0), (5, 3), (6, 6), (5, 5), (3, 5), (1, 5), (0, 4), (1, 1), (0, 2), (0, 5), (6, 0), (5, 6), (3, 6), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (7, 6), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (1, 2), (2, 5), (5, 1), (6, 2), (3, 0)]
+R
+D
+# turn 2 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(1, 0)
+(7, 6)
+[(3, 7), (6, 3), (4, 5), (2, 3), (3, 2), (1, 4), (2, 4), (4, 0), (5, 3), (6, 6), (5, 5), (3, 5), (1, 5), (0, 4), (1, 1), (0, 2), (0, 5), (6, 0), (5, 6), (3, 6), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (1, 2), (2, 5), (5, 1), (6, 2), (3, 0)]
+U
+L
+# turn 3 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(1, 1)
+(6, 6)
+[(3, 7), (6, 3), (4, 5), (2, 3), (3, 2), (1, 4), (2, 4), (4, 0), (5, 3), (5, 5), (3, 5), (1, 5), (0, 4), (0, 2), (0, 5), (6, 0), (5, 6), (3, 6), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (1, 2), (2, 5), (5, 1), (6, 2), (3, 0)]
+U
+L
+# turn 4 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(1, 2)
+(5, 6)
+[(3, 7), (6, 3), (4, 5), (2, 3), (3, 2), (1, 4), (2, 4), (4, 0), (5, 3), (5, 5), (3, 5), (1, 5), (0, 4), (0, 2), (0, 5), (6, 0), (3, 6), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+L
+D
+# turn 5 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(0, 2)
+(5, 5)
+[(3, 7), (6, 3), (4, 5), (2, 3), (3, 2), (1, 4), (2, 4), (4, 0), (5, 3), (3, 5), (1, 5), (0, 4), (0, 5), (6, 0), (3, 6), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+U
+L
+# turn 6 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(0, 3)
+(4, 5)
+[(3, 7), (6, 3), (2, 3), (3, 2), (1, 4), (2, 4), (4, 0), (5, 3), (3, 5), (1, 5), (0, 4), (0, 5), (6, 0), (3, 6), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+U
+L
+# turn 7 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(0, 4)
+(3, 5)
+[(3, 7), (6, 3), (2, 3), (3, 2), (1, 4), (2, 4), (4, 0), (5, 3), (1, 5), (0, 5), (6, 0), (3, 6), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+R
+U
+# turn 8 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(1, 4)
+(3, 6)
+[(3, 7), (6, 3), (2, 3), (3, 2), (2, 4), (4, 0), (5, 3), (1, 5), (0, 5), (6, 0), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+R
+U
+# turn 9 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(2, 4)
+(3, 7)
+[(6, 3), (2, 3), (3, 2), (4, 0), (5, 3), (1, 5), (0, 5), (6, 0), (7, 2), (7, 3), (2, 7), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+D
+L
+# turn 10 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(2, 3)
+(2, 7)
+[(6, 3), (3, 2), (4, 0), (5, 3), (1, 5), (0, 5), (6, 0), (7, 2), (7, 3), (0, 7), (5, 2), (1, 3), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+L
+L
+# turn 11 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(1, 3)
+(1, 7)
+[(6, 3), (3, 2), (4, 0), (5, 3), (1, 5), (0, 5), (6, 0), (7, 2), (7, 3), (0, 7), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+U
+L
+# turn 12 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(1, 4)
+(0, 7)
+[(6, 3), (3, 2), (4, 0), (5, 3), (1, 5), (0, 5), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+U
+D
+# turn 13 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(1, 5)
+(0, 6)
+[(6, 3), (3, 2), (4, 0), (5, 3), (0, 5), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+L
+D
+# turn 14 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(0, 5)
+(0, 5)
+[(6, 3), (3, 2), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+R
+R
+# turn 15 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(1, 5)
+(1, 5)
+[(6, 3), (3, 2), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (2, 5), (5, 1), (6, 2), (3, 0)]
+R
+R
+# turn 16 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(2, 5)
+(2, 5)
+[(6, 3), (3, 2), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+R
+R
+# turn 17 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 5)
+(3, 5)
+[(6, 3), (3, 2), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+D
+D
+# turn 18 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 4)
+(3, 4)
+[(6, 3), (3, 2), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+D
+D
+# turn 19 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 3)
+(3, 3)
+[(6, 3), (3, 2), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+D
+D
+# turn 20 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 2)
+(3, 2)
+[(6, 3), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 2), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+R
+R
+# turn 21 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 2)
+(4, 2)
+[(6, 3), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (5, 2), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+R
+R
+# turn 22 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(5, 2)
+(5, 2)
+[(6, 3), (4, 0), (5, 3), (6, 0), (7, 2), (7, 3), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+U
+U
+# turn 23 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(5, 3)
+(5, 3)
+[(6, 3), (4, 0), (6, 0), (7, 2), (7, 3), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+R
+R
+# turn 24 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(6, 3)
+(6, 3)
+[(4, 0), (6, 0), (7, 2), (7, 3), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+R
+R
+# turn 25 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(7, 3)
+(7, 3)
+[(4, 0), (6, 0), (7, 2), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+D
+D
+# turn 26 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(7, 2)
+(7, 2)
+[(4, 0), (6, 0), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (6, 2), (3, 0)]
+L
+L
+# turn 27 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(6, 2)
+(6, 2)
+[(4, 0), (6, 0), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (3, 0)]
+D
+D
+# turn 28 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(6, 1)
+(6, 1)
+[(4, 0), (6, 0), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (3, 0)]
+D
+D
+# turn 29 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(6, 0)
+(6, 0)
+[(4, 0), (7, 4), (4, 7), (4, 1), (5, 0), (6, 5), (7, 5), (4, 3), (5, 1), (3, 0)]
+L
+L
+# turn 30 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(5, 0)
+(5, 0)
+[(4, 0), (7, 4), (4, 7), (4, 1), (6, 5), (7, 5), (4, 3), (5, 1), (3, 0)]
+L
+L
+# turn 31 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 0)
+(4, 0)
+[(7, 4), (4, 7), (4, 1), (6, 5), (7, 5), (4, 3), (5, 1), (3, 0)]
+U
+U
+# turn 32 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 1)
+(4, 1)
+[(7, 4), (4, 7), (6, 5), (7, 5), (4, 3), (5, 1), (3, 0)]
+R
+R
+# turn 33 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(5, 1)
+(5, 1)
+[(7, 4), (4, 7), (6, 5), (7, 5), (4, 3), (3, 0)]
+L
+L
+# turn 34 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 1)
+(4, 1)
+[(7, 4), (4, 7), (6, 5), (7, 5), (4, 3), (3, 0)]
+U
+U
+# turn 35 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 2)
+(4, 2)
+[(7, 4), (4, 7), (6, 5), (7, 5), (4, 3), (3, 0)]
+U
+U
+# turn 36 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 3)
+(4, 3)
+[(7, 4), (4, 7), (6, 5), (7, 5), (3, 0)]
+R
+R
+# turn 37 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(5, 3)
+(5, 3)
+[(7, 4), (4, 7), (6, 5), (7, 5), (3, 0)]
+R
+R
+# turn 38 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(6, 3)
+(6, 3)
+[(7, 4), (4, 7), (6, 5), (7, 5), (3, 0)]
+R
+R
+# turn 39 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(7, 3)
+(7, 3)
+[(7, 4), (4, 7), (6, 5), (7, 5), (3, 0)]
+U
+U
+# turn 40 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(7, 4)
+(7, 4)
+[(4, 7), (6, 5), (7, 5), (3, 0)]
+U
+U
+# turn 41 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(7, 5)
+(7, 5)
+[(4, 7), (6, 5), (3, 0)]
+L
+L
+# turn 42 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(6, 5)
+(6, 5)
+[(4, 7), (3, 0)]
+L
+L
+# turn 43 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(5, 5)
+(5, 5)
+[(4, 7), (3, 0)]
+L
+L
+# turn 44 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 5)
+(4, 5)
+[(4, 7), (3, 0)]
+U
+U
+# turn 45 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 6)
+(4, 6)
+[(4, 7), (3, 0)]
+U
+U
+# turn 46 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(4, 7)
+(4, 7)
+[(3, 0)]
+L
+L
+# turn 47 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 7)
+(3, 7)
+[(3, 0)]
+D
+D
+# turn 48 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 6)
+(3, 6)
+[(3, 0)]
+D
+D
+# turn 49 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 5)
+(3, 5)
+[(3, 0)]
+D
+D
+# turn 50 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 4)
+(3, 4)
+[(3, 0)]
+D
+D
+# turn 51 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 3)
+(3, 3)
+[(3, 0)]
+D
+D
+# turn 52 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 2)
+(3, 2)
+[(3, 0)]
+D
+D
+# turn 53 rat_location then python_location then pieces_of_cheese then rat_decision then python_decision
+(3, 1)
+(3, 1)
+[(3, 0)]
+D
+D
+{'win_rat': 0, 'win_python': 1, 'score_rat': 19.5, 'score_python': 20.5, 'moves_rat': 53, 'moves_python': 53, 'miss_rat': 0, 'miss_python': 0, 'stucks_rat': 0, 'stucks_python': 0, 'prep_time_rat': 0.0, 'prep_time_python': 0.0, 'turn_time_rat': 0.0, 'turn_time_python': 0.0}
