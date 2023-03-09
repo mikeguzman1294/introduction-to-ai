@@ -28,14 +28,23 @@ def convert_input(player, maze, opponent, mazeHeight, mazeWidth, piecesOfCheese)
     # We consider twice the size of the maze to simplify the creation of the canvas. 
     # The canvas is initialized as a numpy tensor with 3 dimensions, the third one corresponding to "layers" of the canvas. 
     # Here, we just use one layer, but you can define other ones to put more information on the play (e.g. the location of the opponent could be put in a second layer).
-    im_size = (2*mazeHeight-1,2*mazeWidth-1,1)
+    
+    #im_size = (2*mazeHeight-1,2*mazeWidth-1,1)
+    im_size = (2*mazeWidth-1, 2*mazeHeight-1, 1)
 
     # We initialize a canvas with only zeros.
     canvas = np.zeros(im_size)
 
+    # Coordinates of the player in the original maze
     (x,y) = player
-
+    
+    # Center of the canvas, which represents the view of the centered player
+    canvas_x_center = mazeWidth - 1
+    canvas_y_center = mazeHeight - 1
+        
     # Fill in the first layer of the canvas with the value 1 at the location of the cheeses, relative to the position of the player (i.e. the canvas is centered on the player location).
+    for (x_cheese,y_cheese) in piecesOfCheese:
+        canvas[ canvas_x_center+(x_cheese-x), canvas_y_center+(y_cheese-y), 0] = 1
 
     return canvas
 

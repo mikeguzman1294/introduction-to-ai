@@ -47,12 +47,18 @@ if (__name__ == "__main__") :
     ## You need to make sure that the size of the input of the first layer correspond to the width of your X vector. 
     ## Feel free to try different number of layer and other non linear function.
     class Net(nn.Module):
-        def __init__(self, in_features):
+        def __init__(self, input_dim, hidden_dim, output_dim):
             super(Net, self).__init__()
-            ### To complete
-
+            self.input_layer = nn.Linear(input_dim, hidden_dim)
+            self.hidden_layer1 = nn.Linear(hidden_dim, hidden_dim)
+            self.hidden_layer2 = nn.Linear(hidden_dim, hidden_dim)
+            self.output_layer = nn.Linear(hidden_dim, output_dim)
+        
         def forward(self, x):
-            ### To complete
+            x = torch.relu(self.input_layer(x))
+            x = torch.relu(self.hidden_layer1(x))
+            x = torch.relu(self.hidden_layer2(x))
+            x = self.output_layer(x)
             return x
 
     net = Net(canvas_size)
