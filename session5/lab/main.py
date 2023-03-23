@@ -96,30 +96,22 @@ def play(model, epochs, train=True):
         game_over = False
 
         # Get the current state of the environment
-        ### CODE TO BE COMPLETED
-        state = env.observe()        
+        state = env.observe()
+        
 
         # Play a full game until game is over
         while not game_over:
             # Do not forget to transform the input of model into torch tensor
-            # using input = torch.FloatTensor(input).
             state = torch.FloatTensor(state)
 
             # Predict the Q value for the current state
-            #### CODE TO BE COMPLETED
             q_values = model(state)
 
             # Pick the next action that maximizes the Q value
-            ### CODE TO BE COMPLETED
-            action = torch.argmax(q_values)
+            action = torch.argmax(q_values).item()
             
             # Apply action, get rewards and new state
-            ### CODE TO BE COMPLETED
-            prev_state = state
-            state, reward, game_over = env.act(action)
-
-            #print(f'Reward: {reward} Action: {action}')
-
+            next_state, reward, game_over= env.act(action)
 
             # Statistics
             if game_over:
@@ -135,10 +127,11 @@ def play(model, epochs, train=True):
             # Create an experience array using previous state, the performed action, the obtained reward and the new state. The vector has to be in this order.
             # Store in the experience replay buffer an experience and end game.
             # Do not forget to transform the previous state and the new state into torch tensor.
-            ### CODE TO BE COMPLETED
-            experience = [torch.FloatTensor(prev_state), action, reward, torch.FloatTensor(state)]
-            exp_replay.remember(experience, game_over)
+            # Create an experience array
+            experience = [torch.FloatTensor(state), action, reward, torch.FloatTensor(next_state)]
 
+            # Store the experience in the experience replay buffer
+            exp_replay.remember(experience,game_over)
             
         win_hist.append(win_cnt)  # Statistics
         cheeses.append(cheese)  # Statistics
@@ -148,29 +141,7 @@ def play(model, epochs, train=True):
             # Train using experience replay. For each batch, get a set of experiences (state, action, new state) that were stored in the buffer. 
             # Use this batch to train the model.
             ### CODE TO BE COMPLETED
-                        
-            running_loss = 0
-            for b in range(number_of_batches):
-                # get the inputs
-                states, Q = exp_replay.get_batch(model, batch_size=batch_size)
-                # zero the parameter gradients
-                optimizer.zero_grad()
-                ### To complete
-                # forward + loss + backward + optimize
-                ### To complete
-                output = model(states)
-                ### To complete
-                loss = criterion(output, Q)
-                ### To complete
-                loss.backward()
-                ### To complete
-                optimizer.step()
-                # statistics
-                running_loss += loss.item()
-            print('[%d] loss: %.3f' % (epoch + 1, running_loss / number_of_batches))
-            running_loss = 0.0
-
-            print('Finished Training')
+            
 
         if (e+1) % 100 == 0:  # Statistics every 100 epochs
             cheese_np = np.array(cheeses)
