@@ -137,15 +137,15 @@ class PyRat(object):
         self._draw_state()       
         
     def _draw_state(self):   
-        #im_size = (2*self.height-1,2*self.width-1,1)   
-        im_size = (2*self.height-1,2*self.width-1,2)
+        im_size = (2*self.height-1,2*self.width-1,1)   
+        #im_size = (2*self.height-1,2*self.width-1,2)
         self.canvas = np.zeros(im_size)
         (x,y) = self.player
         (x_enemy, y_enemy) = self.enemy
         center_x, center_y = self.width-1, self.height-1
         for (x_cheese,y_cheese) in self.piecesOfCheese:
             self.canvas[y_cheese+center_y-y,x_cheese+center_x-x,0] = 1
-        self.canvas[y_enemy+center_y-y,x_enemy+center_x-x,1] = 1
+        #self.canvas[y_enemy+center_y-y,x_enemy+center_x-x,1] = 1
 
         return self.canvas
         

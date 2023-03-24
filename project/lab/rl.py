@@ -111,8 +111,8 @@ class ExperienceReplay(object):
             # They will not be affected by training (since the training loss for them is 0).
             model.eval()
             with torch.no_grad():
-                Q[i] = model(state.unsqueeze(dim=0))[0]
-                #Q[i] = model(state)
+                Q[i] = model(state.unsqueeze(dim=0))[0] # FOR ANN
+                #Q[i] = model(state) # FOR CONVOLUTIONAL NEURAL NETWORKS
 
                 # If the game ended, the expected reward Q(s,a) should be the final reward r.
                 # Otherwise the target value is r + gamma * max Q(s’,a’)
@@ -122,8 +122,8 @@ class ExperienceReplay(object):
                     Q[i, action_t] = reward_t
                 else:
                     # r + gamma * max Q(s’,a’)
-                    next_round = model(state_tp1.unsqueeze(dim=0))[0]
-                    #next_round = model(state_tp1)
+                    next_round = model(state_tp1.unsqueeze(dim=0))[0] # FOR ANN
+                    #next_round = model(state_tp1) # FOR CONVOLUTIONAL NEURAL NETWORKS
                     Q[i, action_t] = reward_t + self.discount * torch.max(next_round)
         return inputs, Q
 
